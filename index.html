@@ -13,14 +13,14 @@
     <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
     <!-- icon -->
     <link rel="shortcut icon" href="_media/favicon.ico">
+    <!-- mermaid -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
+    <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   </head>
   <body>
 
     <!-- edit on github -->
     <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
-
-    <!-- mermaid -->
-    <script src="//fastly.jsdelivr.net/npm/mermaid@8.0.0-rc.8/dist/mermaid.min.js"></script>
 
     <div style="text-align: center;" id="app">🏃‍🏃‍🏃‍💨稍等一下,很快就好啦！...</div>
 
@@ -94,6 +94,9 @@
             },
           },
         },
+        mermaidConfig: {
+          querySelector: ".mermaid"
+        }
       }
     </script>
 
